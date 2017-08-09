@@ -303,8 +303,8 @@ if [ $UPLOAD_PGYER = true ]
 
                 #开始上传
                 curl -F "file=@$IPA_PATH" \
-                -F "uKey=ef9bbdd84dea6d9fa92bc99b9093de52" \
-                -F "_api_key=a01f3e8713d04aa7d61a2dc403a0979c" \
+                -F "uKey=139032f32b074b6059ba4fd2d4a7e7f0" \
+                -F "_api_key=2224cd123da216d52ec222933efa543a" \
                 -F "password=$PASSWORD" \
                 -F "installType=$INSTALL_TYPE" \
                 https://www.pgyer.com/apiv1/app/upload --verbose
