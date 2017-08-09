@@ -118,7 +118,7 @@ echo "            2 上传 "
 
 #获取用户的输入
 
-param=1
+param=2
 
 if [ -n $param ]
     then
@@ -278,9 +278,7 @@ if [ $UPLOAD_PGYER = true ]
         echo "           3 邀请安装"
 
         #读取用户输入
-        read -p "请选择安装方式:" install_type
-        sleep 0.5
-        type=$install_type
+        type=1
 
         if [ -n $type ]
             then
